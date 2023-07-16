@@ -7,14 +7,14 @@ function Header() {
   return (
     <header>
       <div>
-        <NavLink to="/P6-OpenClassrooms">
+        <NavLink to="/">
           <img src={Logo} alt="Logo Kasa" />
         </NavLink>
       </div>
       <nav>
         <ul>
           <li>
-            <NavLink to="/P6-OpenClassrooms">Accueil</NavLink>
+            <NavLink to="/">Accueil</NavLink>
           </li>
           <li>
             <NavLink to="/about">A Propos</NavLink>
