@@ -1,9 +1,13 @@
+// J'importe React et les composants nécessaires
 import React from "react";
 import Banner from "../components/Banner";
 import AboutBanner from "../images/banner-about.png";
 import Collapse from "../components/Collapse";
 
+// Je définis le composant about
 function About() {
+
+  // cela va me rendre ma bannière avec mon image avec composant Banner. Mon composant collapse viendra à chque fois avec le titre et le contenu texte afin d'avoir des collapse valide.
   return (
     <>
       <Banner bannerImg={AboutBanner} page="about" />
@@ -29,4 +33,5 @@ function About() {
   );
 }
 
+//j'exporte aboutpour l'utiliser ailleurs
 export default About;
