@@ -11,6 +11,8 @@ function AppRouter() {
     <Routes>
       {/* pour / j'arrive sur la page Home */}
       <Route path="/" element={<Home />} exact />
+
+      <Route path="/Kasa" element={<Home />} />
       
        {/* pour /about j'arrive sur la page About. */}
       <Route path="/about" element={<About />} />
